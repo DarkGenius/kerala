@@ -4,9 +4,9 @@ import (
 
     "github.com/jbenet/go-ipfs/core"
     "github.com/jbenet/go-ipfs/repo/fsrepo"
-    "code.google.com/p/go.net/context"
+    "golang.org/x/net/context"
 	"fmt"
-	u "github.com/jbenet/go-ipfs/util"
+	u "github.com/ipfs/go-ipfs-util"
 	merkledag "github.com/jbenet/go-ipfs/merkledag"
     "net/http"
 	"bytes"
